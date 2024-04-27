@@ -1,0 +1,817 @@
+body{
+    background-color: whitesmoke;
+}
+a{
+	text-decoration: none;
+}
+  .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+#Header{
+    background-color:rgb(63, 179, 221);
+    padding: 30px; 
+    
+}
+#Header .head{
+    display: flex;    
+    justify-content: flex-start;
+    flex-direction: row;
+   
+}
+#Header .head h2{
+    margin-left: 50px;
+    color: white;
+}
+#Header .head a{
+    margin-top: 8px;
+    width: 20px;
+}
+#Header .head a>i{
+    color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+   
+}
+
+#Main{
+    margin-top: 40px;
+    background-color: white;
+    padding: 120px 250px;
+    border: 1px ;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;   
+}
+#Main .mai{
+   position: absolute;
+   top: 0;
+   left: 50px;
+   display: flex;
+   background-color:rgb(63, 179, 221);
+   width: 1305px;
+   height:80px ;
+   margin-left: -50px;
+   
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   
+   
+   background-size: cover;
+   text-align: center;
+}
+#Main .mai .mai1{
+    margin-left: 150px;
+    margin-top: 20px;
+    border: none;
+}
+.mai1 select{
+border: none;
+font-size: 16px;
+}
+#Main .mai .mai3{
+    position: absolute;
+    left: 900px;
+}
+#Main .mai .mai2{
+    position: absolute;
+    left: 105px;
+    bottom: 22px;
+    
+   top: -3px ;
+}
+.mai2 img{
+    
+    width: 25px;
+    margin-top: 20px;
+}
+.mai3 .dropdown{
+    margin-top: 25px;
+    margin-left: 150px;  
+}
+.mai3 .dropdown select{
+  border: none;
+    font-size: 16px;
+    margin-top: -10px;
+   
+}
+.clock{
+    gap: 300px;
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+}
+.clock2 img{
+ 
+  margin-top: 20px;
+}
+.clock1{
+   font-size: 20px;
+   
+}
+.clock1 input{
+    margin-top: 20px;
+    border: none;
+    margin-left: -20px;
+}
+.button{
+    margin-left:355px;
+    font-size: 20px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+   margin-top: 20px;
+}
+.time p{
+    font-size: 20px;
+}
+.time p>span{
+    color: red;
+   margin-left: 10px;
+   margin-top: 40px;
+}
+
+
+/* main1 */
+#main1{
+    padding: 50px;
+    background-color:white;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.personal1 h1{
+    font-size: 30px;
+    margin-top: -20px;
+}
+.personal2 input{
+    margin-left: 100px;
+    border: none;
+    font-size: 20px;
+
+}
+.personal2 div:nth-child(2)>input{
+  margin-right: 200px;
+}
+.personal2 label{
+    border: none;
+    font-size: 20px;
+
+}
+.personal2 div{
+    line-height: 30px;
+}
+.personal2 div:nth-child(2)>input{
+   margin-left: 75px;
+}
+.personal2 div:nth-child(4)>input{
+    margin-left: 90px;
+}
+body{
+    background-color: whitesmoke;
+}
+#main3{
+    padding: 90px;
+    background-color:white;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.per{
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: -40px;
+}
+
+.tapdetils{
+    margin-top: 30px;
+    display: flex;
+    gap: 0px;
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 70%;
+    margin-left: 100px;
+  border-radius: 5px;
+}
+.tapdetils p{
+    font-size: 25px;
+    opacity: 0.7;
+    margin-left:80px;
+    border: none;
+    background-color: whitesmoke;
+   
+    
+
+}
+.tapdetils button{
+    border: none;
+    width: 30px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left:150px;
+}
+.tapdetils button img{
+   
+    margin-top: 10px;
+}
+#inputDiv input {
+   
+    
+}
+#inputDiv input{
+    flex-direction: column;
+    border: none;
+    padding-left: 80px;
+    margin-top: 10px;
+    width: 44%;
+    margin-left: 100px;
+    gap: 100px;
+    border: none;
+    padding-bottom: 10px;
+   
+}
+#inputDiv button{
+   margin-left: 50px;
+   background-color: rgb(63, 179, 221);
+   color: white;
+   padding-left: 10px;
+  padding-right: 40px;
+  
+}
+#detailsDiv{
+    
+   
+    width: 54%;
+    margin-top: 8px;
+    margin-left:100px;
+  
+
+}
+#detailsDiv p{
+ margin-left: 20px;
+ margin-top: 10px;
+ background-color: whitesmoke;
+ flex-direction: row;
+ 
+}
+#detailsDiv button{
+   
+ 
+     margin-left: 50px;
+    background-color:rgb(34, 141, 105);;
+    color:white;
+    padding-right: 50px;
+    width: 30px;
+   padding-top: 1%;
+    font-size: 15px;
+    padding-bottom: -20px; 
+    border-radius: 5px;
+   
+    
+  
+    
+}
+#editDetailsButton{
+    padding: 50px;
+    
+}
+.hidden {
+    display: none;
+}
+
+#editDetailsButton{
+    padding: 20px;
+}
+
+/* main4 */
+
+body{
+    background-color: whitesmoke;
+}
+#main4{
+    padding: 90px;
+    background-color:white;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.per1{
+    margin-top: -20px;
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+.tapdetils2{
+    display: flex;
+    gap: 0px;
+    padding: 25px;
+    background-color: whitesmoke;
+    width: 67.5%;
+    margin-left: 100px;
+    
+}
+.tapdetils2 p{
+    font-size: 25px;
+    opacity: 0.7;
+    margin-left:-60px;
+    margin-top: -35px;
+    
+    border: none;
+    background-color: whitesmoke;
+   
+    
+
+}
+.tapdetils2 button{
+    border: none;
+    width: 30px;
+    height: 25px;
+    margin-top: 40 px;
+    margin-left:-200px;
+}
+.tapdetils2 button img{
+   
+    margin-top: 10px;
+}
+#inputDiv1 input {
+   
+    
+}
+#inputDiv1 input{
+    flex-direction: column;
+    border: none;
+    padding-left: 80px;
+    margin-top: 10px;
+    width: 44%;
+    margin-left: 100px;
+    gap: 100px;
+    border: none;
+    padding-bottom: 10px;
+   
+}
+#inputDiv1 button{
+   margin-left: 50px;
+   background-color: rgb(34, 141, 105);;
+   color: white;
+ padding-left: 10px;
+  padding-right: 40px;
+  
+}
+#detailsDiv1{
+    
+   
+    width: 54%;
+    margin-top: 8px;
+    margin-left:100px;
+  
+
+}
+#detailsDiv1 p{
+ margin-left: 20px;
+ margin-top: 10px;
+ background-color: whitesmoke;
+ flex-direction: row;
+ 
+}
+#detailsDiv1 button{
+   
+ 
+     margin-left: 50px;
+    background-color:rgb(34, 141, 105);;
+    color:white;
+    padding-right: 50px;
+    width: 30px;
+   padding-top: 1%;
+    font-size: 15px;
+    padding-bottom: -20px; 
+    border-radius: 5px;
+   
+    
+  
+    
+}
+#editDetailsButton1{
+    padding: 50px;
+    
+}
+.hidden1 {
+    display: none;
+}
+
+#editDetailsButton1{
+    padding: 20px;
+}
+
+/* main5 */
+
+body{
+    background-color: whitesmoke;
+}
+#main5{
+    padding: 90px;
+    background-color:white;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.per2{
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.tapdetils3{
+    display: flex;
+    gap: 0px;
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 70%;
+    margin-left: 100px;
+    display: i;
+}
+.tapdetils3 p{
+    font-size: 25px;
+    opacity: 0.7;
+    margin-left:-80px;
+    border: none;
+    margin-top: -30px;
+    background-color: whitesmoke;
+   
+    
+
+}
+.tapdetils3 button{
+    border: none;
+    width: 30px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left:-200px;
+}
+.tapdetils2 button img{
+   
+    margin-top: 10px;
+}
+#inputDiv1 input {
+   
+    
+}
+/* #inputDiv1 input{
+    flex-direction: column;
+    border: none;
+    padding-left: 80px;
+    margin-top: 10px;
+    width: 44%;
+    margin-left: 100px;
+    gap: 100px;
+    border: none;
+    padding-bottom: 10px;
+   
+} */
+#check{
+    font-size: 20px;
+    border: none;
+    margin-left: 100px;
+}
+#inputDiv2 button{
+   margin-left: 50px;
+   background-color:rgb(63, 179, 221);
+   color: white;
+   padding-left: 10px;
+   padding-right: 40px;
+  
+}
+#detailsDiv2{
+    width: 54%;
+    margin-top: 8px;
+    margin-left:100px;
+
+}
+#detailsDiv2 p{
+ margin-left: 20px;
+ margin-top: 10px;
+ background-color: whitesmoke;
+ flex-direction: row;
+ 
+}
+#detailsDiv2 button{
+     margin-left: 50px;
+    background-color:rgb(63, 179, 221);
+    color:white;
+    padding-right: 50px;
+    width: 30px;
+   padding-top: 1%;
+    font-size: 15px;
+    padding-bottom: -20px; 
+    border-radius: 5px; 
+    
+}
+#editDetailsButton2{
+    padding: 50px;
+    
+}
+.hidden2 {
+    display: none;
+}
+
+#editDetailsButton2{
+    padding: 20px;
+}
+
+/* main6 */
+
+
+#main6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.head64{
+    display: flex;
+}
+.head62{
+    font-size: 18px;
+}
+.head63 {
+    margin-left: 150px;
+    margin-top: 10px;
+    
+  
+}
+.head6 h1{
+    font-size: 30px;
+}
+
+.head62 p{
+    font-size: 25px;
+   
+}
+.head63 button{
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(63, 179, 221);
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.head66{
+ 
+   margin-left: 150px;
+   font-size: 25px;
+}
+.head64{
+    margin-left: 200px;
+}
+
+/*-------------------------------------------------------
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'roboto',sans-serif;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    padding-bottom:20px;
+    width:100%;
+    height:80px;
+    overflow:hidden;
+    
+}
+.back-icon{
+    font-size: 20px;
+    color:#fff;
+    margin-left:20px;
+    margin-top:45px;
+    
+}
+.div1{ 
+    background-color: rgb(5,166,90);
+    display:flex;
+    flex-direction: row;
+    height:80px;
+}
+.Checkout{
+    font-size: 20px;
+    color:#fff;
+    margin-left:20px;
+    margin-top:45px;
+
+}
+.section1{
+    padding-top:80px;
+    height:250px;
+    width:100%;
+    position: relative;
+    
+    
+}
+.container{
+    box-shadow: 1px 1px 5px 0px rgba(104, 104, 104, 0.7);
+    height:200px;
+    width:90%;
+    margin:0px auto;
+    border-radius:15px;
+    overflow: hidden;
+}
+.parking{
+    padding:10px;
+    
+    border-radius: 10px 10px 0 0;
+    height:40px;
+    background-color:rgb(5,166,90);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.location-icon{
+    margin-left:100px;
+    color:white;
+}
+.parking-Slot select{
+    appearance: none;
+    background-color:rgb(5,166,90) ;
+    color:#fff;
+    border: none;
+    font-size:large;
+}
+.location{
+    margin-left:-20px;
+}
+.location select{
+    appearance: none;
+    background-color:rgb(5,166,90) ;
+    color:#fff;
+    border: none;
+    font-size: large;
+}
+.Parking-Time{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.ParkingFont{
+    color:darkgrey
+
+}
+.Parking-from input{
+    padding:10px;
+    appearance:none;
+    border:none;
+    -webkit-appearance: none; 
+    
+}
+.arrow{
+    margin-top:45px;
+    font-size: 15px;
+    font-weight:lighter;
+    color:darkgrey
+}
+
+/* #clock1::-webkit-calendar-picker-indicator {
+    opacity:100;
+    position: absolute;
+    width: 10%;
+    left:37%;
+  } */
+  
+  
+/*.Parking-until input{ 
+    padding:10px;
+    border:none;
+    appearance:none;
+    -webkit-appearance: none;
+    
+}
+/* #clock2::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    position: absolute;
+    width: 10%;
+    left:79%;
+  } */
+  /*.Time{
+    border-bottom:3px solid rgb(5,166,90) ;
+    color:black;
+  }
+  
+  .result{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  #result1{
+    padding-left:40px;
+  }
+  #dest{
+    margin-left:20px;
+  }
+  .PaymentSummary{
+    padding:20px;
+    margin-bottom: 20px;
+
+  }
+  
+  
+/*.container2{
+    /* box-shadow: 1px 1px 5px 0px rgba(104, 104, 104, 0.7); */
+    /*height:130px;
+    width:93%;
+    margin-top:10px;
+    margin-left:20px;
+    border-radius:15px;
+    background-color: rgb(244, 243, 260);
+}
+#payment{
+    display:flex;
+    flex-direction: column;
+}
+.Fee{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#transaction{
+    border-bottom: 1px solid rgb(204, 204, 236);
+}
+.Details{
+    margin-top:10px;
+    padding-bottom: 20px;
+}
+.container3{
+    box-shadow: 1px 1px 5px 0px rgba(104, 104, 104, 0.7);
+    display:flex;
+    flex-direction: row;
+    width :93%;
+    height:40px;
+    justify-content: space-between;
+    padding-left:20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top:10px;
+    color:darkgrey;
+    padding-right:10px;
+
+}
+.btn{
+    border:none;
+    border-radius: 20px;
+    width:20px;
+    height:20px;
+    background-color: rgb(5,166,90);
+    color:#fff
+}
+.foot{
+    margin-top: 400px;
+    box-shadow: 1px 1px 5px 0px rgba(104, 104, 104, 0.7);
+    width:100%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:30px;
+}
+#proceed{
+    background-color: rgb(5,166,90);
+    border:none;
+    height:30px;
+    width:150px;
+    border-radius: 10px;
+    color:white;
+    padding-left: 30px;
+}  
+#amt{
+    padding-bottom: 20px;
+    padding-left: 20px;
+} 
+
+*/
+
+
